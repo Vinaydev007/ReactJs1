@@ -4,13 +4,15 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Sample from './ui-content/sample';
+import Accordian from './ui-content/Accordian';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* <App /> */}
-    <Sample/>
-
+    {/* <Sample/> */}
+    <Accordian/>
   </React.StrictMode>
 );
 
