@@ -5,14 +5,15 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Sample from './ui-content/sample';
 import Accordian from './ui-content/Accordian';
-
+import Todo from '../src/ui-content/todo'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* <App /> */}
     {/* <Sample/> */}
-    <Accordian/>
+    {/* <Accordian/> */}
+    <Todo/>
   </React.StrictMode>
 );
 
