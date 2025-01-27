@@ -4,21 +4,11 @@ import './index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Sample from './ui-content/sample';
-import Accordian from './ui-content/Accordian';
-import Todo from '../src/ui-content/todo'
-import List from './ui-content/home/list';
-import Main from './ui-content/home/main'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    {/* <App /> */}
-    {/* <Sample/> */}
-    {/* <Accordian/> */}
-    {/* <Todo/> */}
-    {/* <List/> */}
-    <Main/>
+    <App /> 
   </React.StrictMode>
 );
 
