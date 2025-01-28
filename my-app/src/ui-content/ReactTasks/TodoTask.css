@@ -1,0 +1,113 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f9fc;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Todo Container */
+  .todo-container {
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 800px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Form */
+  .todo-form {
+    margin-bottom: 20px;
+  }
+  
+  .todo-input {
+    width: 70%;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+  }
+  
+  .todo-button {
+    padding: 10px 16px;
+    border: none;
+    border-radius: 6px;
+    background-color: #4caf50;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .todo-button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Main Box Layout */
+  .main-box {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .box {
+    flex: 1;
+    margin: 0 10px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #f4f4f4;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Individual Section Styles */
+  .list {
+    background-color: #ffe0b2;
+  }
+  
+  .inprogress {
+    background-color: #b3e5fc;
+  }
+  
+  .completed {
+    background-color: #c8e6c9;
+  }
+  
+  /* Section Titles */
+  .box h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  /* Task Items */
+  .box ul {
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+  }
+  
+  .box li {
+    background-color: #ffffff;
+    margin: 8px 0;
+    padding: 8px 12px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+  }
+
+
+  .main-box{
+    box-shadow: #f7f9fc;
+    width:200px;
+    height:100px
+  }

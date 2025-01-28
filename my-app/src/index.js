@@ -13,12 +13,12 @@ import Main from './ui-content/home/main'
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    {/* <App /> */}
+    <App />
     {/* <Sample/> */}
     {/* <Accordian/> */}
     {/* <Todo/> */}
     {/* <List/> */}
-    <Main/>
+    {/* <Main/> */}
   </React.StrictMode>
 );
 
